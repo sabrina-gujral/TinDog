@@ -1,0 +1,159 @@
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+body, nav, h2, h3{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+#title, .feature-icon:hover, #cta  {
+    background-color: crimson;
+}
+
+#testimonials, #pricing, #press, #cta, #footer, #features {
+    text-align: center;
+}
+
+.heading{
+    color: #fff;
+    font-size: 6em;
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 1.5;
+    font-weight: 800;
+    margin: 1em 1em .5em 0;
+}
+
+.navbar {
+    padding:0 !important;
+}
+
+.brand {
+    font-size: 2.5em !important;
+    font-weight: 600;
+    padding: 0;
+}
+
+.nav-item {
+    font-size: 1.5em;
+    padding: 0 18px 0 18px;
+}
+
+.download{
+    padding: 1.5em;
+    margin top: 2em;
+}
+
+.title-iphone-img {
+    width: 70%;
+    margin-top: 50px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/*Features*/
+
+#features {
+    background-color: #fff;
+    padding: 8% 20%;
+    line-height: 2em;
+    position: relative;
+}
+
+#features h3 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+#features p{
+    color: #5e5e5e;
+    padding: 2% 7%;
+}
+.feature-icon {
+    color: #ef8172;
+    padding-bottom: 3%;
+}
+
+/*Testimonials*/
+#testimonials h2 {
+    color: #fff;
+    font-weight: 600 !important;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    width: 15%;
+    margin: 25px;
+}
+
+.carousel-item {
+    padding: 8% 20%;
+    color: #fff;
+    line-height: 2em;
+}
+#press {
+    background-color: #ef8172;
+    padding: 3% 0;
+}
+
+#press img {
+    width:10%;
+    margin: 20px 20px 20px 50px;
+}
+
+/*Pricing*/
+
+ #pricing {
+    padding: 8% 15%;
+ }
+
+.price-col {
+    padding: 3% 2%;
+}
+ #pricing p{
+    color: #5e5e5e;
+}
+
+/*Call to action*/
+
+#cta {
+    color: #fff;
+    padding: 5% 25%;
+}
+
+#cta h1{
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+#cta button {
+    margin: 5% 0;
+}
+
+/*Footer*/
+
+#footer {
+    padding: 5% 15%;
+}
+
+#footer i {
+    padding: 0 1em 2em 1em;
+}
+
+
+@media (max-width: 1028px) {
+
+    .title-iphone-img {
+        margin-top: 50px;
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
